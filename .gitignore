@@ -1,4 +1,11 @@
+# general system backups
+*~
+
+# R-environment variables
+
 .Rproj.user
 .Rhistory
 .RData
 Earthquakes.Rproj
+
+

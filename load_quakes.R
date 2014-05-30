@@ -10,7 +10,7 @@ types<-c("POSIXct",    #time
          "numeric",    #rms
          "character",  #net
          "character",  #id
-         "character",  #updated
+         "POSIXct",    #updated
          "character",  #place
          "factor")     #type
          
