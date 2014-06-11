@@ -3,7 +3,11 @@ Earthquakes
 
 ## analysis of earthquakes
 
-### I am still not sure what exactly this program will be doing :)
+run Rscript main.R
+
+** generates map of number of earthquakes
+
+## I am still not sure what exactly this program will be doing :)
 
 data on earthquakes taken from the USGS
 
