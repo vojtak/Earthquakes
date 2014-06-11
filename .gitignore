@@ -1,6 +1,10 @@
 # general system backups
 *~
 
+# redundant data
+*2.csv
+*2.dat
+
 # R-environment variables
 
 .Rproj.user
