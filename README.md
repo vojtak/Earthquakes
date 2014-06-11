@@ -1,26 +1,23 @@
 Earthquakes
 ===========
 
-## analysis of earthquakes
-
-* generates map of number of earthquakes
-
 
 
 # necessary preparations
 
-* download data
+* download data from the web
 
 * edit file paths in data_modification.sh
-* run data_modification.sh to modify modify downloaded data to have the desired format
+* run data_modification.sh to modify downloaded data to have the desired format
 
 * edit 0_parameters.R -- coordinates etc.
 
 * run Rscript main.R
 
+* admire the map
 
 
-## acknowledgements
+# acknowledgements
 
 data on earthquakes taken from the USGS
 

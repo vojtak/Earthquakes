@@ -30,7 +30,7 @@ close_quakes<-function(latitude,longitude){
 events_number <- function(lat,lon){
   
   quakes_selected<-close_quakes(lat,lon)
-  nrow(quakes_selected[quakes_selected$mag>4,])
+  nrow(quakes_selected[quakes_selected$mag>5,])
   
 }
 
