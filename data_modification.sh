@@ -13,5 +13,5 @@ echo "remove bad lines from coastline"
 
 FILE_path2=data/coastline2.dat
 
-#>
+#remove lines with >
 sed -i "/>/d" $FILE_path2

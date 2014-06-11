@@ -4,7 +4,7 @@
 
 is_near <- function(lat_test,lon_test, lat_origin, lon_origin) {
   
-  if (abs(lat_test-lat_origin)<distance &&abs(lon_test-lon_origin)<distance){
+  if (abs(lat_test-lat_origin)<distance &&abs(lon_test-lon_origin)<distance/cos(lat_origin/180*3.1415)){
     TRUE
   } 
   else {
