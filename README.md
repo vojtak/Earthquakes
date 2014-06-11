@@ -5,9 +5,11 @@ Earthquakes
 
 run Rscript main.R
 
-** generates map of number of earthquakes
+* generates map of number of earthquakes
 
-## I am still not sure what exactly this program will be doing :)
+# I am still not sure what exactly this program will be doing :)
+
+## acknowledgements
 
 data on earthquakes taken from the USGS
 
