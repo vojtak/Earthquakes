@@ -2,7 +2,7 @@
 
 points<-vector("logical",30)
 points[1]<-TRUE
-coast<-read.table("data/coastline.dat")[points,]
+coast<-read.table(coastline_file_path)[points,]
 
 
 

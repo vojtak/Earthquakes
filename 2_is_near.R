@@ -4,7 +4,7 @@
 
 is_near <- function(lat_test,lon_test, lat_origin, lon_origin) {
   
-  if (abs(lat_test-lat_origin)<0.5 &&abs(lon_test-lon_origin)<0.5){
+  if (abs(lat_test-lat_origin)<distance &&abs(lon_test-lon_origin)<distance){
     TRUE
   } 
   else {
@@ -30,7 +30,7 @@ close_quakes<-function(latitude,longitude){
 events_number <- function(lat,lon){
   
   quakes_selected<-close_quakes(lat,lon)
-  nrow(quakes_selected[quakes_selected$mag>5,])
+  nrow(quakes_selected[quakes_selected$mag>4,])
   
 }
 

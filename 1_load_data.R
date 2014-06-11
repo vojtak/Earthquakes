@@ -20,7 +20,7 @@ types<-c("POSIXct",    #time
 
 # loading data
 
-quake_data<-read.table("data/quakes.csv",
+quake_data<-read.table(earthquakes_file_path,
                        sep=','
                        ,header=TRUE,
                        colClasses=types)

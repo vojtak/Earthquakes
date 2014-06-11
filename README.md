@@ -3,11 +3,22 @@ Earthquakes
 
 ## analysis of earthquakes
 
-run Rscript main.R
-
 * generates map of number of earthquakes
 
-# I am still not sure what exactly this program will be doing :)
+
+
+# necessary preparations
+
+* download data
+
+* edit file paths in data_modification.sh
+* run data_modification.sh to modify modify downloaded data to have the desired format
+
+* edit 0_parameters.R -- coordinates etc.
+
+* run Rscript main.R
+
+
 
 ## acknowledgements
 

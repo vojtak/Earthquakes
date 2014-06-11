@@ -1,7 +1,7 @@
 # latitudes and longitudes under consideration
 
-lats<-seq(20.5,49.5,0.25)
-lons<-seq(120.5,149.5,0.25)
+lats<-seq(south_boundary+distance,north_boundary-distance,grid_spacing)
+lons<-seq(west_boundary+distance,east_boundary-distance,grid_spacing)
 
 
 # map of outputs

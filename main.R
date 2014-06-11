@@ -4,6 +4,7 @@ print(paste("main script start        ", Sys.time() ))
 
 
 print(paste("data load start          ", Sys.time() ))
+source("0_parameters.R")
 source("1_load_data.R")
 print(paste("data load finish         ", Sys.time() ))
 
